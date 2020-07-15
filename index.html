@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Anu ka Janmdin</title>
+  </head>
+  <body>
+    
+    <audio id="oops">
+      <source src="/Oops.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="yes">
+      <source src="/yes.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="quizSong">
+      <source src="/quizSong.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="container card" id="container">
+      <span id="begin" style="text-align: center;"><h1>Anu's Birthday Quiz</h1></span>
+      <!-- <br> -->
+      <div id="question-container" class="hide">
+        <h5><div id="question" class="" style="font-weight: bold;">Question</div></h5>
+        <div id="answer-buttons" class="btn-grid">
+          <a class="waves-effect waves-light btn">Answer 1</a>
+          <a class="waves-effect waves-light btn">Answer 2</a>
+          <a class="waves-effect waves-light btn">Answer 3</a>
+          <a class="waves-effect waves-light btn">Answer 4</a>
+        </div>
+      </div>
+      <div class="controls">
+        <a
+          class="start-btn waves-effect waves-light btn btn-large"
+          id="start-btn"
+          >Start</a
+        >
+        <a class="next-btn waves-effect waves-light btn hide" id="next-btn"
+          >Next</a
+        >
+        <a class="next-btn waves-effect waves-light btn hide" id="submit-btn"
+          href="carousel.html">HBD</a
+        >
+      </div>
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>
+          Leooooo!!!<span>&#129318;</span> <br />
+          Arrey pagla gyi kya Anu?!?!?!? Chhote mein sar par ghal gyi thi kya??
+          <span>&#129322;</span>
+        </h4>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>
+          Arrreyyy!!! <br />
+          Kya baat Anu! <span>&#127831;</span><span>&#127828;</span>
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>
